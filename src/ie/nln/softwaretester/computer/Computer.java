@@ -45,7 +45,7 @@ public class Computer {
 	// ways of doing it (if or return vs else)
 	
 	public void turnOff() {
-		if(this.on != true) {  // could also be if(!this.on)
+		if(!this.on) {  // could also be if(this.on != true)
 			System.out.println("Computer is already off");
 		} else {
 			this.on = false;

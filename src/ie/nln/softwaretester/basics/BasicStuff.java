@@ -1,9 +1,13 @@
 package ie.nln.softwaretester.basics;
+import java.io.IOException;
 import java.util.Scanner;
+
+import ie.nln.softwaretester.computer.Computer;
+import ie.nln.softwaretester.computer.OpSystem;
 
 public class BasicStuff {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		System.out.println("Hello world!");
 		
 		Scanner myScanner = new Scanner(System.in);

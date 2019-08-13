@@ -6,7 +6,7 @@ public class IfElseStuff {
 		
 		boolean humid = true;
 		boolean sunny = false;
-		boolean warm = true;
+		boolean warm = false;
 
 		if(humid) {
 			System.out.println("It's humid today");
@@ -37,7 +37,5 @@ public class IfElseStuff {
 		} else {
 			System.out.println("It's a watermelon");
 		}
-		
-		
 	}
 }

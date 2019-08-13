@@ -34,7 +34,7 @@ public class MathsTesting {
 		double half2 = half(sum2);
 		double product2 = multiply(half2, 3);
 		
-		System.out.println("Final answer:" + product2);
+		System.out.println("Final answer: " + product2);
 		
 		scanner.close();
 	}

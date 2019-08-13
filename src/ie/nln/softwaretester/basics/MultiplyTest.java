@@ -17,9 +17,9 @@ public class MultiplyTest {
 		System.out.println("Please enter number 3:");
 		int num3 = scanner.nextInt();
 		
-		int sum = multiply(num1, num2, num3);
+		int product = multiply(num1, num2, num3);
 		
-		System.out.println("The sum is " + sum);
+		System.out.println("The product is " + product);
 	}
 	
 	public static int multiply(int n1, int n2, int n3) {
