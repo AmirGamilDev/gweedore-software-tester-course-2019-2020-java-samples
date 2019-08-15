@@ -2,9 +2,9 @@ package ie.nln.softwaretester.inheritance;
 
 public class Animal {
 	
-	protected String name;
-	protected String colour;
-	protected int age;
+	private String name;
+	private String colour;
+	private int age;
 	
 	public Animal(String name, String colour, int age) {
 		this.name = name;

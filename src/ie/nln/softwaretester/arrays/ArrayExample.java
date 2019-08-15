@@ -30,11 +30,13 @@ public class ArrayExample {
 		
 		double average = total / values.length;
 		
-		System.out.println("Average temperature: " + average);
+		System.out.println("Average : " + average);
 	}
 	
+
 	private static void printValue(int t) {
-		t = 3;
+		//t = 3; - if this were here, it would change the value of t
+		// before being processed
 		
 		System.out.println("Value: " + t);
 	}

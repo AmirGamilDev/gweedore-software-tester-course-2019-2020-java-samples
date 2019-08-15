@@ -1,13 +1,14 @@
 package ie.nln.softwaretester.arrays;
 
+
 public class TwoDimensions {
 
 	public static void main(String[] args) {
 		
 		int[][] days = {
-							{23,5, 4}, 
-							{3,54, 8}
-						};
+							{23, 5, 4}, 
+							{3, 54, 8}
+			           };
 		
 		System.out.println("yo");
 		

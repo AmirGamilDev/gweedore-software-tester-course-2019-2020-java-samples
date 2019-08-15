@@ -44,5 +44,22 @@ public class InterfaceTest {
 		Eater homerTheEater = new Shopkeeper("Homer");
 		
 		ArrayList<Eater> eaters = new ArrayList<Eater>();
+		
+		Customer tommy = new Customer("Tommy", 1234);
+		Customer mary = new Customer("Mary", 4321);
+		
+		tommy.buy("Chewing gum");
+		mary.buy("Car");
+		
+		ArrayList<Buyer> buyers = new ArrayList<Buyer>();
+		
+		buyers.add(tommy);
+		buyers.add(mary);
+		buyers.add(pepsi);
+		buyers.add((Buyer)larry);
+
+		for(Buyer b : buyers) {
+			b.buy("Tea");
+		}
 	}
 }
