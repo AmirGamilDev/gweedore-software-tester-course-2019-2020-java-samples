@@ -1,6 +1,6 @@
 package ie.nln.softwaretester.interfaces;
 
-public class Shopkeeper implements Payable, Eater {
+public class Shopkeeper implements Payable, Eater, Buyer {
 
 	private String name;
 	
@@ -24,5 +24,10 @@ public class Shopkeeper implements Payable, Eater {
 	@Override
 	public void pay() {
 		System.out.println("Shopkeeper " + name + " got paid");
+	}
+
+	@Override
+	public void buy(String item) {
+		System.out.println("Shopkeeper " + getName() + " buys " + item);
 	}
 }

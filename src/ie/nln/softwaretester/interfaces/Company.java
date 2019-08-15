@@ -1,6 +1,6 @@
 package ie.nln.softwaretester.interfaces;
 
-public abstract class Company implements Payable {
+public abstract class Company implements Payable, Buyer {
 
 	private String name;
 	
