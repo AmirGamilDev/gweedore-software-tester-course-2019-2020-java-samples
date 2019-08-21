@@ -35,7 +35,17 @@ public class IfElseStuff {
 		} else if(fruit.equals("Apple")) {
 			System.out.println("It's an apple");
 		} else {
-			System.out.println("It's a watermelon");
+			System.out.println("It's neither an orange nor an apple");
+		}
+		
+		String sandwichInShop = "Tuna";
+		
+		if(sandwichInShop.equals("Tuna")) {
+			System.out.println("Get tuna sandwich");
+		} else if(sandwichInShop.equals("Chicken")) {
+			System.out.println("Get chicken sandwich");
+		} else if(sandwichInShop.equals("Prawn")) {
+			System.out.println("Get prawn sandwich");
 		}
 	}
 }
