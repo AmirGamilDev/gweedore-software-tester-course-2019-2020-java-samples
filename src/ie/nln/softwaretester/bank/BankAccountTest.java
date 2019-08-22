@@ -7,5 +7,6 @@ public class BankAccountTest {
 		
 		amirsBankAccount.deposit(512.78);
 		amirsBankAccount.withdraw(1000);
+		amirsBankAccount.deposit(100);
 	}
 }
